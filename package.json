@@ -1,0 +1,14 @@
+{
+  "name": "tailwindcss-starter",
+  "version": "1.0.0",
+  "description": "Build webpage with Tailwindcss",
+  "scripts": {
+    "start": "tailwind -i ./src/css/tailwind.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "adozhao",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
